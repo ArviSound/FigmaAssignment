@@ -1,0 +1,191 @@
+/*Container*/
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    height: 1080px;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    margin-top: -10px;
+    margin-left: 50px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav{
+    padding-left: 20%;
+    display: inline-flex;
+    gap: 60px;
+}
+
+nav h4{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav h4:hover{
+    border-bottom: cyan solid 4px;
+    
+}
+
+header .cart{
+    margin-top: 1%;
+    margin-left: auto;
+}
+
+.cart{
+    text-align: center;
+    width: 120px;
+    height: 40px; 
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border-top-right-radius: 5px;
+    /*Font*/
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart h4{
+    margin-top: 8px;
+}
+
+header .more{
+    margin-top: 1%;
+}
+
+.more{
+    margin-left: 20px;
+    margin-right: 50px;
+    text-align: center;
+    width: 50px;
+    height: 40px; 
+    color: white;
+    background-color: rgb(39, 210, 210);
+    border-radius: 30px;
+    border-top-left-radius: 5px;
+}
+
+.more svg{
+    margin-top: 8px;
+}
+
+/*Main*/
+main{
+    display: flex;
+    width: 100%;
+}
+
+.redGuy{
+    padding: 100px;
+    margin-left: 2%;
+}
+
+.redGuy img{
+    max-width: 100%;
+}
+
+article{
+    margin: 3% 0;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+article h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.25px;
+}
+article .pink2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.25px;
+    margin-bottom: 1.5em;
+}
+
+article p{
+    color: #969696;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+article h3{
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.boxes{
+    display:flex;
+    width: 100%;
+}
+
+.extendedBox{
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 10px 10px 30px 0px rgba(67, 199, 255, 0.30);
+    height: 93px; 
+    display: inline-flex;
+    width: 50%; 
+}
+.extendedBox .basket{
+    margin-top: 2%;
+    max-width: 100%;
+    max-height: 80%
+}
+
+.smallBox{
+    width: 25%;
+    height: 93px;
+    display: inline-flex;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+}
+
+.nav2{
+    display: inline-flex;
+    gap: 20px;
+}
